@@ -48,11 +48,11 @@ export default class TTYText {
       this.stdin.resume();
       this.stdin.setRawMode(true);
       const listener = (text: Buffer) => {
+        this.stdin.pause();
+        this.stdin.setRawMode(false);
         if (ctrlC && text.toString() === '\u0003') {
           process.exit();
         }
-        this.stdin.pause();
-        this.stdin.setRawMode(false);
         this.stdin.removeListener('data', listener);
         resolve(text.toString().trim());
       }
