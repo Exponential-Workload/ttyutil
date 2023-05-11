@@ -15,6 +15,7 @@ jobs:
       - name: Stats
         uses: lowlighter/metrics@latest
         with:
+          token: ${{ github.token }}
           template: repository
           user: Exponential-Workload
           repo: ttyutil
