@@ -1,6 +1,5 @@
-# ttyutil
+# [![ttyutil](https://raw.githubusercontent.com/Exponential-Workload/ttyutil/master/metrics.svg)](https://github.com/Exponential-Workload/ttyutil)
 
 Utilities for CLI/TTY Applications, such as centering text and ANSI colour codes
 
-[npm](https://npm.im/@rco3/ttyutil) |
-[github](https://github.com/Exponential-Workload/ttyutil)
+[npm](https://npm.im/@rco3/ttyutil)
