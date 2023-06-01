@@ -1,6 +1,6 @@
 {
   "name": "@rco3/ttyutil",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utilities for CLI/TTY Applications, such as centering text and ANSI colour codes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
     "util"
   ],
   "author": "Exponential-Workload",
-  "license": "MIT",
+  "license": "GPL-3-OR-LATER",
   "devDependencies": {
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^20.1.2",
