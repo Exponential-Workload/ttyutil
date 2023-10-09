@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 0 */14 * *"}]
   workflow_dispatch:
 concurrency:
   group: "metrics"
